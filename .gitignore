@@ -50,7 +50,7 @@ Homestead.json
 
 # Generated files
 .idea/**/contentModel.xml
-.ida
+/.idea
 
 # Sensitive or high-churn files
 .idea/**/dataSources/
