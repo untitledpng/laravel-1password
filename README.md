@@ -1,2 +1,2 @@
 # laravel-1password
-Simply access 1Password via Laravel
+This is still Work-In-Progress!
