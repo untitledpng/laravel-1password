@@ -1,5 +1,11 @@
 {
   "name": "untitledpng/laravel-1password",
+  "description": "Simply access 1Password via Laravel.",
+  "authors": [
+    {
+      "name": "untitledpng"
+    }
+  ],
   "require": {
     "php": "^8.1",
     "laravel/framework": ">=9.0",
