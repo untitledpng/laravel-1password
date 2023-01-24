@@ -14,9 +14,6 @@ class ServiceProvider extends IlluminateServiceProvider
      */
     public function boot(): void
     {
-        // Load config
-        $this->mergeConfigFrom(__DIR__ . '/../config/laravel-1password.php', 'laravel-1password');
-
         // Publish config
         $this->publishes([
             __DIR__ . '/../config/laravel-1password.php' => config_path('laravel-1password.php'),
@@ -28,6 +25,9 @@ class ServiceProvider extends IlluminateServiceProvider
      */
     public function register(): void
     {
+        // Load config
+        $this->mergeConfigFrom(__DIR__ . '/../config/laravel-1password.php', 'laravel-1password');
+        
         $this->registerRepositories();
         $this->registerMacros();
     }
